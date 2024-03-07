@@ -89,3 +89,43 @@ background-image: url();
     /* display: flex; */
     /* gap: 20px; */
 }
+.Discounts-sec{
+    text-align: center;
+    font-size: large;
+}
+.image-see{
+    
+}
+.Packages-btn{
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: small;
+    color: white;
+    border: 0;
+    width: 150px;
+   
+    
+}
+.btn-pack{
+  justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.btn{
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: small;
+    color: white;
+    border: 0;
+    width: 100px;
+}
+.place-secBandorban{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.place-secText{
+    font-size: large;
+}
