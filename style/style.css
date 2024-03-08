@@ -94,6 +94,7 @@ background-image: url();
     font-size: large;
 }
 .image-see{
+    /* see all packeage sec */
     
 }
 .Packages-btn{
@@ -129,3 +130,39 @@ background-image: url();
 .place-secText{
     font-size: large;
 }
+.signUP-sec{
+    font-size: 30px;
+}
+.name-btn{
+    background-color: beige;
+    padding: 15px;
+    font-size: smaller;
+    width: 300px;
+    /* border: 0; */
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+.email-btn{
+    background-color: beige;
+    padding: 15px;
+    font-size: smaller;
+    width: 300px;
+    /* border: 0; */
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.subscribe-btn{
+    background-color: orangered;
+    padding: 15px;
+    font-size: large;
+    color: white;
+    width: 330px;
+    /* border: 0; */
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
