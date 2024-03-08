@@ -96,10 +96,86 @@ background-image: url();
     text-align: center;
     font-size: large;
 }
-.image-see{
-    /* see all packeage sec */
+.image-sec{
+    /* see all packeage section */
+    background-image: url('/image/Group\ 39.png');
+    width: 1170px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: 150px;
+}
+.image-sec1{
+    background-image: url('/image/Group\ 40.png');
+    width: 1170px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: 150px;
     
 }
+.image-sec2{
+    background-image: url('/image/Group\ 39.png');
+    width: 1170px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: 150px;
+}
+.backgound-sec{
+    background-color: rgba(245, 245, 220, 0.673);
+    padding: 20px;
+    border-radius: 20px;
+    height: 300px;
+    margin-left: 500px;
+}
+/* middle icon,image */
+.b-sec{
+    background-color: rgba(245, 245, 220, 0.673);
+    padding: 20px;
+    border-radius: 20px;
+    height: 300px;
+    margin-right: 500px;
+    /* margin-top: 100px; */
+    
+}
+.backgound-icon{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.icon1{
+    display: flex;
+    font-size: small;
+    margin-right: 100px;
+}
+.Price{
+    color: orangered;
+    justify-content: flex-start;
+    text-align: start;
+}
+.BookNow-btn{
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: small;
+    color: white;
+    border: 0;
+    width: 150px;
+    
+}
+.Satorini-text{
+    justify-content: flex-start;
+    text-align: start;
+}
+
+
 .Packages-btn{
     background-color: orangered;
     border-radius: 5px;
@@ -196,13 +272,16 @@ background-image: url();
     background-color: orangered;
     color: white;
     font-weight: 600;
-    padding: 8px;
+    padding: 3px;
     width: 300px;
     border-radius: 10px;
     position:relative;
-    margin-top: 300px;
-    margin-left: 360px;
-    
+    margin-top: 200px;
+    margin-left: 370px;
+    transform: rotate(-45deg);
+}
+.travel-text{
+    text-align: center;
 }
 
 /* footer section */
