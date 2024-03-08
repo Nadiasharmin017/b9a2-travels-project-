@@ -130,8 +130,20 @@ background-image: url();
 .place-secText{
     font-size: large;
 }
-.signUP-sec{
+/* signup section */
+.signUP-section{
+ border: solid 3px salmon;
+ width: 400px;
+ text-align: center;
+ /* height: 350px; */
+}
+.signUP-text{
     font-size: 30px;
+    
+
+}
+.underline-signUP{
+    text-decoration: underline;
 }
 .name-btn{
     background-color: beige;
@@ -164,5 +176,9 @@ background-image: url();
     border: 0px;
     border-radius: 5px;
     margin-top: 20px;
+}
+.news-sec{
+    display: flex;
+    justify-content: space-evenly;
 }
 
