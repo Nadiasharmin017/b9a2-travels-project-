@@ -20,12 +20,44 @@ nav{
     font-size: 20px;
 }
 .header-img1{
-/* background-image: url('/image folder/group13.png'); */
+    background-image: url('/image/group13.png');
+/* background-image: url(); */
+width: 1170px;
+height: 500px;
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+margin-left: 150px;
+border-radius: 20px;
+}
+.header-text{
+    color: white;
+    font-size: large;
+    /* margin-bottom: 200px; */
 
-background-image: url();
- justify-content: center;
- align-items: center;
- text-align: center;
+}
+.btn1{
+    background-color: beige;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: small;
+    /* color: white; */
+    color: rgba(0, 0, 0, 0.464);
+    border: 0;
+    /* width: 150px; */
+    
+}
+.header-btn{
+    background-color: rgba(245, 245, 220, 0.509);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 300px;
+    margin-right: 300px;
+    width: 1100px;
+    justify-content: space-between;
+
+
 }
 .Popular-tour{
     display: flex;
