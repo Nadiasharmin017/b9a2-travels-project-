@@ -30,13 +30,17 @@ text-align: center;
 display: flex;
 margin-left: 150px;
 border-radius: 20px;
+position: relative;
 }
-.header-text{
+.header-text {
     color: white;
     font-size: large;
-    /* margin-bottom: 200px; */
-
+    margin-bottom: 200px;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
 }
+
 .btn1{
     background-color: beige;
     border-radius: 5px;
@@ -53,15 +57,17 @@ border-radius: 20px;
     padding: 20px;
     border-radius: 10px;
     margin-top: 300px;
-    margin-right: 300px;
-    width: 1100px;
-    justify-content: space-between;
+    /* margin-right: 300px; */
+    width: 900px;
+    justify-content: space-evenly;
+    
 
 
 }
 .Popular-tour{
     display: flex;
     justify-content: center;
+    margin-top: 100px;
     /* justify-content: space-evenly; */
 }
 .Popular-text{
@@ -148,6 +154,7 @@ border-radius: 20px;
     text-align: center;
     display: flex;
     margin-left: 150px;
+    margin-top: 100px;
     
 }
 .image-sec2{
@@ -159,6 +166,7 @@ border-radius: 20px;
     text-align: center;
     display: flex;
     margin-left: 150px;
+    margin-top: 100px;
 }
 .backgound-sec{
     background-color: rgba(245, 245, 220, 0.673);
@@ -216,6 +224,7 @@ border-radius: 20px;
     color: white;
     border: 0;
     width: 150px;
+    margin-top: 50px;
    
     
 }
