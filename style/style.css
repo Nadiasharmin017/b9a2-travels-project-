@@ -66,7 +66,7 @@ position: relative;
 }
 .Popular-tour{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 100px;
     /* justify-content: space-evenly; */
 }
@@ -385,6 +385,8 @@ position: relative;
     }
     .place-secBandorban{
         flex-direction: column;
+        width: auto;
+        align-items: center;
     }
    .news-sec{
     flex-direction: column;
@@ -397,3 +399,47 @@ position: relative;
     width: fit-content;
    }
 }
+
+@media only screen and (max-width: 480px) {
+    nav{
+        flex-direction: column;
+    }
+    .header-img1 {
+        width: auto;
+        height: auto;
+        padding: 20px; 
+        margin-left: 0;
+        text-align: center; 
+    }
+    .header-btn {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+    /* popular tour section */
+    .Popular-tour {
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    .seven-images01,
+    .seven-images02,
+    .seven-images03 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .seven-images img {
+        margin: 0 auto;
+        width: 80%; 
+        max-width: 300px; 
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .travel-img {
+        /* width: 20%;  */
+        /* max-width: 300px; */
+        margin: auto; 
+    }
+    
+
+}
+
