@@ -339,6 +339,29 @@ position: relative;
     justify-content: center;
     text-align: center;
 }
+.bonus-sec{
+    /* width: auto; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+}
+.bonus-text{
+    color: brown;
+}
+.bonus-btn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 680px;
+    background-color:brown;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+    border: 0;
+    width: 150px;
+
+}
 @media only screen and (max-width: 768px)  {
     .header-img1{
         width: auto;
